@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #myVideo {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+
+        #main {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            width: 100%;
+        }
+
+        .logo {
+            color: White;
+            font-size: 25px;
+            align-self: flex-start;
+        }
+
+        .navigation {
+            color: cyan;
+        }
+
+        .navigationli {
+            display: inline-block;
+            padding: 10px;
+            background-color: transparent;
+            margin: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Design - 48420.mp4" type="video/mp4">
+
+    </video>
+    <div id="main">
+        <div class="navbar">
+            <div class="logo">
+                Aparoksha
+            </div>
+           
+        </div>
+        <div class="body1">
+            <div class="discord">
+
+            </div>
+            <div class="navigation">
+                <ul class="navigationul">
+                    <li class="navigationli">Events</li>
+                    <li class="navigationli">Tech Events</li>
+                    <li class="navigationli">Sponsors</li>
+                    <li class="navigationli">Contact Us</li>
+                    <li class="navigationli">About</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <video src="Design - 48420.mp4" style="width:100%;"></video> -->
+
+
+</body>
+
+</html>
